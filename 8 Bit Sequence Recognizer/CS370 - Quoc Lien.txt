@@ -1,0 +1,23 @@
+CS370 Lab 3 Assignment
+Contributer: Quoc Lien
+Code: 01100100
+
+Files included:
+ASTATEFF.cct
+BSTATEFF.cct
+CSTATEFF.cct
+DSTATEFF.cct
+LAB3_Main.cct
+LAB3_Sub.cct
+QLien.clf
+
+Design Process
+I started with a state diagram, using the mealy model. I used the mealy model beacuse I can design
+the system with states including input value of x. There are 8 States for each bit and remembered bits, 
+and a 9th state to remember the whole 8 bits. Using a a state table and 5 variable Karnaugh map
+I was able to determine the optimize equations for each of the next states for each flip flop (A-D). A being
+MSB and D being LSB. 
+
+
+QLien.clf
+Student's Library File.

@@ -1,0 +1,38 @@
+CS370 Lab 2 Assignment
+Contributer: Quoc Lien
+
+Files included:
+LAB2.cct
+ECC GENERATOR.cct
+DATA Transmission.cct
+Main Memory.cct
+4-Bit Encoder.cct
+4-to-12 Bit decoder.cct
+QLien.clf
+
+
+LAB2.cct
+This file is the test circuit for the lab to test each circuit together and individually. 
+
+ECC GENERATOR.cct
+This file-circuit accepts a 8 Bit input and generates a 12 bit output with 4 parity bits.
+
+DATA Transmission.cct
+The Data Transmission simulates real world data errors. This circuits allows a single bit error to occur and is
+passed onto the Main Memory.
+
+Main Memory.cct
+The Main Memory's function is to accept the data passed by the data transmission circuit and performs its 
+subcircuits function. It outputs an code to let the user know if no error has occurred (0) or if a single bit
+error has occurred (C). 
+
+4-Bit Encoder.cct
+This 4-Bit encoder is a sub-circuit of the Main memory. Its only function is to accept the 12 Bit Data and then 
+encodes it to a 4 bit ECC CODE.
+
+4-to-12 Bit Decoder.cct
+This circuit is also another sub-circuit of the Main Memory. Its function is to decode the 4-Bit ECC code
+and fixes any occurance of single bit errors.
+
+QLien.clf
+Student's Library File.
